@@ -82,7 +82,7 @@ export default function Playground() {
   const total = scenarioTotal(scenario);
   const error = validateScenario(scenario);
   useEffect(() => {
-    document.title = 'Playground — Trafflow';
+    document.title = 'Playground — VROOO';
     if (!simulation) return;
     const update = () => {
       setMetrics({ adaptive: simulation.adaptive.metrics(), fixed: simulation.fixed.metrics() });
@@ -163,7 +163,7 @@ export default function Playground() {
         {!type ? (
           <>
             <div className="lab-intro">
-              <p className="section-kicker">PLAYGROUND / TRAFFLOW</p>
+              <p className="section-kicker">PLAYGROUND / VROOO</p>
               <h1>
                 Atur arusnya.
                 <br />
@@ -382,7 +382,7 @@ export default function Playground() {
                     <h2>Waktu tunggu</h2>
                     <span>{finished ? 'HASIL AKHIR' : 'SEMENTARA'}</span>
                   </div>
-                  <CompareCard title="Trafflow adaptif" metric={metrics.adaptive} running={running} adaptive />
+                  <CompareCard title="VROOO adaptif" metric={metrics.adaptive} running={running} adaptive />
                   <CompareCard title="Konvensional" metric={metrics.fixed} running={running} />
                   <div className={`efficiency-result ${finished ? 'is-final' : ''}`} role="status">
                     <span>{finished ? 'Perbandingan selesai' : 'Selisih sementara'}</span>
@@ -436,7 +436,7 @@ export default function Playground() {
         )}
       </main>
       <footer className="lab-footer lab-container">
-        <span>Trafflow · PBL Project</span>
+        <span>VROOO · PBL Project</span>
         <a href="/">← Kembali ke Home</a>
       </footer>
     </div>

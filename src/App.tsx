@@ -180,7 +180,7 @@ function App() {
             <div className="intro-copy">
               <p className="intro-lead">Traffic changes every minute. Signal timing should be able to keep up.</p>
               <p>
-                Trafflow is an adaptive traffic signal concept that uses camera observations and computer vision to understand vehicle flow. It turns
+                VROOO is an adaptive traffic signal concept that uses camera observations and computer vision to understand vehicle flow. It turns
                 lane conditions into informed, safe signal decisions—and makes the system easier to monitor.
               </p>
               <a className="text-link" href="#how-it-works">
@@ -238,7 +238,7 @@ function App() {
                   cities really move.
                 </h2>
               </div>
-              <p>By reading the current road, Trafflow aims to make every signal decision more useful.</p>
+              <p>By reading the current road, VROOO aims to make every signal decision more useful.</p>
             </div>
             <div className="benefit-grid">
               {benefits.map((benefit) => (
@@ -264,7 +264,7 @@ function App() {
                 <br />
                 next signal <em>smarter.</em>
               </h2>
-              <p>Trafflow is a Semester 5 Project Based Learning exploration of computer vision and adaptive traffic control.</p>
+              <p>VROOO is a Semester 5 Project Based Learning exploration of computer vision and adaptive traffic control.</p>
             </div>
             <a className="button button-outline" href="#home">
               Back to the intersection <ArrowIcon diagonal />
@@ -276,7 +276,7 @@ function App() {
         <div className="footer-inner container">
           <Logo dark />
           <span>Smarter roads. Better flow.</span>
-          <span>© {new Date().getFullYear()} Trafflow · PBL Project</span>
+          <span>© {new Date().getFullYear()} VROOO · PBL Project</span>
         </div>
       </footer>
     </>

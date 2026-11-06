@@ -1,6 +1,6 @@
-# Trafflow — landing page & traffic playground
+# VROOO — landing page & traffic playground
 
-A responsive landing page for Trafflow with a procedural, animated Three.js intersection. The supplied reference image informed the camera, intersection composition, lighting, and typography; it is not displayed as the hero background.
+A responsive landing page for VROOO with a procedural, animated Three.js intersection. The supplied reference image informed the camera, intersection composition, lighting, and typography; it is not displayed as the hero background.
 
 ## Run locally
 
